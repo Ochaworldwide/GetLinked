@@ -157,7 +157,7 @@ function App() {
               className="object-contain object-center mb-5 mobile:w-full"
             />
 
-            <p className="text-white text-2xl w-4/5 mb-10 leading-normal mobile:text-center mobile:w-[90%] mobile:text-xl mobile:mx-auto">
+            <p className="text-white text-2xl w-4/5 mb-10 leading-normal mobile:text-center mobile:w-[90%] mobile:text-base mobile:mx-auto">
               Participate in getlinked tech Hackathon 2023 stand a chance to win
               a Big prize
             </p>
@@ -203,7 +203,7 @@ function App() {
       </div>
 
       {/* Third Section */}
-      <div className="w-full px-10 py-20 border-b flex border-[#FFFFFF2E] mobile:block">
+      <div className="w-full px-10 py-20 border-b flex border-[#FFFFFF2E] mobile:block mobile:px-5">
         <div className="w-2/4 mobile:w-full mobile:mb-10">
           <img
             src={bulb}
@@ -214,13 +214,14 @@ function App() {
         </div>
 
         <div className="w-2/4  flex flex-col justify-center gap-4 mobile:w-full mobile:text-center ">
-          <h1 className="text-white font-bold text-3xl ">
-            Introduction to getlined
+          <h1 className="text-white font-bold text-3xl w-7/12 mobile:w-full mobile:text-lg">
+            Introduction to getlinked{" "}
+            <span className="text-[#D434FE] font-bold text-3xl mobile:text-lg">
+              techHackathon 1.0
+            </span>
           </h1>
-          <h1 className="text-[#D434FE] font-bold text-3xl">
-            techHackathon 1.0
-          </h1>
-          <p className="w-5/6 text-white text-base leading-loose mobile:mx-auto mobile:text-lg mobile:text-center">
+          
+          <p className="w-5/6 text-white text-base leading-loose mobile:mx-auto mobile:w-full mobile:text-center mobile:text-sm">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
             genius, a design maverick, or a concept wizard, you'll have the
