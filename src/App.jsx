@@ -220,7 +220,7 @@ function App() {
               techHackathon 1.0
             </span>
           </h1>
-          
+
           <p className="w-5/6 text-white text-base leading-loose mobile:mx-auto mobile:w-full mobile:text-center mobile:text-sm">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
@@ -233,7 +233,7 @@ function App() {
       </div>
 
       {/* Fourth Section */}
-      <div className="w-full p-10 border-b flex flex-row-reverse  border-[#FFFFFF2E] mobile:block">
+      <div className="w-full p-10 border-b flex flex-row-reverse  border-[#FFFFFF2E] mobile:block mobile:px-5">
         <div className="w-2/4  mobile:w-full">
           <img
             src={gosip}
@@ -243,7 +243,7 @@ function App() {
           />
         </div>
 
-        <div className="w-2/4  flex flex-col justify-center gap-4 pl-40  mobile:w-full mobile:pl-0">
+        <div className="w-2/4  flex flex-col justify-center gap-4 pl-40  mobile:w-full mobile:pl-0 mobile:gap-0">
           <h1 className="text-white font-bold text-3xl mobile:mx-auto mobile:text-base">
             Rules and
           </h1>
@@ -262,7 +262,7 @@ function App() {
       </div>
 
       {/* Fifth Section */}
-      <div className="w-full p-10 border-b flex  border-[#FFFFFF2E] mobile:block">
+      <div className="w-full p-10 border-b flex  border-[#FFFFFF2E] mobile:block mobile:px-5">
         <div className="w-2/4  mobile:w-full">
           <img
             src={family}
@@ -273,26 +273,26 @@ function App() {
         </div>
 
         <div className="w-2/4  flex flex-col justify-center gap-6 pl-40 mobile:w-full mobile:pl-0">
-          <h1 className="w-4/12 text-white font-bold text-3xl leading-relaxed mobile:mx-auto mobile:w-6/12">
+          <h1 className="w-4/12 text-white font-bold text-3xl leading-relaxed mobile:mx-auto mobile:w-8/12">
             Judging Criteria{" "}
             <span className="text-[#D434FE]">Key attributes</span>
           </h1>
 
-          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-5/6 mobile:mx-auto">
+          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-full mobile:mx-auto">
             <span className="text-[#D434FE]">Innovation and Creativity</span>:
             Evaluate the uniqueness and creativity of the solution. Consider
             whether it addresses a real-world problem in a novel way or
             introduces innovative features.
           </p>
 
-          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-5/6 mobile:mx-auto">
+          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-full mobile:mx-auto">
             <span className="text-[#D434FE]">Functionality</span>: Assess how
             well the solution works. Does it perform its intended functions
             effectively and without major issues? Judges would consider the
             completeness and robustness of the solution.
           </p>
 
-          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-5/6 mobile:mx-auto">
+          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-full mobile:mx-auto">
             <span className="text-[#D434FE]">Impact and Relevance</span>:
             Determine the potential impact of the solution in the real world.
             Does it address a significant problem, and is it relevant to the
@@ -300,14 +300,14 @@ function App() {
             or environmental benefits.
           </p>
 
-          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-5/6 mobile:mx-auto">
+          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-full mobile:mx-auto">
             <span className="text-[#D434FE]">Technical Complexity</span>:
             Evaluate the technical sophistication of the solution. Judges would
             consider the complexity of the code, the use of advanced
             technologies or algorithms, and the scalability of the solution.
           </p>
 
-          <p className="w-6/6 text-white text-base leading-loose mb-10 mobile:text-center mobile:w-5/6 mobile:mx-auto">
+          <p className="w-6/6 text-white text-base leading-loose mb-10 mobile:text-center mobile:w-full mobile:mx-auto">
             <span className="text-[#D434FE]">Adherence to Hackathon Rules</span>
             : Judges will Ensure that the team adhered to the rules and
             guidelines of the hackathon, including deadlines, use of specific
@@ -326,7 +326,7 @@ function App() {
       </div>
 
       {/* Sixth Section */}
-      <div className="w-full p-10 border-b flex flex-row-reverse  border-[#FFFFFF2E] mobile:block">
+      <div className="w-full p-10 border-b flex flex-row-reverse  border-[#FFFFFF2E] mobile:block mobile:px-5">
         <div className="w-2/4  mobile:w-full">
           <img
             src={thought}
@@ -337,11 +337,11 @@ function App() {
         </div>
 
         <div className="w-2/4 flex flex-col gap-6 pl-40 mobile:w-full mobile:pl-0">
-          <h1 className="w-4/12 h-20 text-white font-bold text-3xl leading-relaxed mt-28 mobile:w-6/12 mobile:mx-auto mobile:text-center">
+          <h1 className="w-4/12 h-20 text-white font-bold text-3xl leading-relaxed mt-28 mobile:w-full mobile:leading-tight mobile:mx-auto mobile:text-center">
             Frequently Ask <span className="text-[#D434FE]">Question</span>
           </h1>
 
-          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-5/6 mobile:mx-auto">
+          <p className="w-6/6 text-white text-base leading-loose mobile:text-center mobile:w-full mobile:mx-auto">
             We got answers to the questions that you might want to ask about
             getlinked Hackathon 1.0
           </p>
@@ -353,7 +353,7 @@ function App() {
       </div>
 
       {/* Seventh Section */}
-      <div className="w-full p-10 text-white mb-20">
+      <div className="w-full p-10 text-white mb-20 mobile:px-5">
         <h1 className="text-center text-3xl font-bold w-2/4 mx-auto mb-5">
           Timeline
         </h1>
@@ -511,7 +511,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex">
+        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex mobile:w-full">
           <div className=" w-1/12 ">
             <img
               src={first}
@@ -536,7 +536,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex">
+        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex mobile:w-full">
           <div className=" w-1/12">
             <img
               src={second}
@@ -561,7 +561,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex">
+        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex mobile:w-full">
           <div className=" w-1/12">
             <img
               src={third}
@@ -585,7 +585,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex">
+        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex mobile:w-full">
           <div className=" w-1/12">
             <img
               src={fourth}
@@ -610,7 +610,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex">
+        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex mobile:w-full">
           <div className=" w-1/12">
             <img
               src={fifth}
@@ -635,7 +635,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex">
+        <div className="w-[90%] h-fit mx-auto justify-between items-center mb-10 hidden mobile:flex mobile:w-full">
           <div className=" w-1/12">
             <img
               src={sixth}
@@ -660,11 +660,15 @@ function App() {
       </div>
 
       {/* Eight section */}
-      <div className="w-full p-10 flex mb-20 mobile:block">
+      <div className="w-full p-10 flex mb-20 mobile:block mobile:px-5">
         <div className="pl-40 hidden mobile:block mobile:pl-0 mobile:w-full mobile:text-center mobile:mb-10">
-          <h1 className="text-white font-bold text-3xl ">Prize and</h1>
-          <h1 className="text-[#D434FE] font-bold text-3xl">Reward</h1>
-          <p className="w-3/6 text-white text-base leading-loose mb-10 mobile:w-full mobile:mb-0">
+          <h1 className="text-white font-bold text-3xl mobile:text-xl">
+            Prize and
+          </h1>
+          <h1 className="text-[#D434FE] font-bold text-3xl mobile:text-xl mobile:mb-5">
+            Reward
+          </h1>
+          <p className="w-3/6 text-white text-base leading-loose mb-10 mobile:w-full mobile:mb-0 mobile:text-sm">
             Highlight of the prizes or rewards for winners and for participants.
           </p>
         </div>
@@ -673,7 +677,7 @@ function App() {
             src={cup}
             alt=""
             srcset=""
-            className="object-contain object-center mx-auto h-full mobile:w-[60%]"
+            className="object-contain object-center mx-auto h-full mobile:w-[70%]"
           />
         </div>
 
@@ -691,17 +695,17 @@ function App() {
             src={reward}
             alt=""
             srcset=""
-            className="object-contain object-center mx-auto mobile:w-[60%]"
+            className="object-contain object-center mx-auto mobile:w-[80%]"
           />
         </div>
       </div>
 
       {/* 9th Section */}
-      <div className="w-full p-20 border-b text-white border-[#FFFFFF2E]">
-        <h1 className="text-center text-3xl font-bold w-2/4 mx-auto mb-5 mobile:w-full">
+      <div className="w-full p-20 border-b text-white border-[#FFFFFF2E] mobile:p-5">
+        <h1 className="text-center text-3xl font-bold w-2/4 mx-auto mb-5 mobile:w-full mobile:text-xl">
           Partners and Sponsors
         </h1>
-        <p className="text-center font-bold w-4/12 mx-auto mb-10 mobile:w-full">
+        <p className="text-center font-bold w-4/12 mx-auto mb-10 mobile:w-full mobile:text-sm">
           Getlinked Hackathon 1.0 is honored to have the following major
           companies as its partners and sponsors
         </p>
@@ -717,21 +721,23 @@ function App() {
       </div>
 
       {/* 10th Section */}
-      <div className="px-40 flex">
-        <div className="w-2/4 p-20 text-white">
-          <h1 className="w-5/12  text-white font-bold text-3xl leading-normal mt-28 mb-10">
+      <div className="px-40 flex mobile:block mobile:px-0 ">
+        <div className="w-2/4 p-20 text-white mobile:w-full mobile:px-[2%] mobile:pt-0">
+          <h1 className="w-5/12  text-white font-bold text-3xl leading-normal mt-28 mb-10 mobile:w-[60%] mobile:text-center mobile:mx-auto mobile:text-xl mobile:mt-10">
             Privacy Policy and
             <span className="text-[#D434FE]"> Terms</span>
           </h1>
-          <p className="mb-10">Last updated on September 12, 2023</p>
+          <p className="mb-10 mobile:text-center">
+            Last updated on September 12, 2023
+          </p>
 
-          <p className="w-7/12 mb-10">
+          <p className="w-7/12 mb-10 mobile:w-full mobile:text-center ">
             Below are our privacy & policy, which outline a lot of goodies. it’s
             our aim to always take of our participant
           </p>
 
-          <div className="p-20 border border-[#D434FE]">
-            <p className="mb-5 leading-loose">
+          <div className="p-20 border border-[#D434FE] mobile:w-11/12 mobile:mx-auto mobile:p-5">
+            <p className="mb-5 leading-loose mobile:text-center">
               At getlinked tech Hackathon 1.0, we value your privacy and are
               committed to protecting your personal information. This Privacy
               Policy outlines how we collect, use, disclose, and safeguard your
@@ -751,7 +757,7 @@ function App() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-10 h-6 "
               >
                 <path
                   strokeLinecap="round"
@@ -761,7 +767,7 @@ function App() {
               </svg>
 
               <div className="w-11/12 ">
-                <p className="font-bold text-sm">
+                <p className="font-bold text-sm mobile:font-normal">
                   The Standard License grants you a non-exclusive right to
                   navigate and register for our event
                 </p>
@@ -775,7 +781,7 @@ function App() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-10 h-6 "
               >
                 <path
                   strokeLinecap="round"
@@ -785,7 +791,7 @@ function App() {
               </svg>
 
               <div className="w-11/12 ">
-                <p className="font-bold text-sm">
+                <p className="font-bold text-sm mobile:font-normal">
                   The Standard License grants you a non-exclusive right to
                   navigate and register for our event
                 </p>
@@ -801,7 +807,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="w-2/4 p-10">
+        <div className="w-2/4 p-10 mobile:w-full mobile:p-0">
           <img
             src={secure}
             alt=""
@@ -812,18 +818,23 @@ function App() {
       </div>
 
       {/* footer section */}
-      <div className="py-20 px-40 bg-yellow-700 text-white font-bold">
-        <div className=" bg-green-700 flex justify-between mb-10">
-          <div className="p-10 w-[37%] bg-red-800">
-            <img src={logo} alt="" srcset="" className="mb-5" />
-            <p className="mb-16">
+      <div className="py-20 px-40  text-white font-bold mobile:w-full mobile:px-[2%]">
+        <div className=" flex justify-between mb-10 mobile:block">
+          <div className="p-10 w-[37%] mobile:w-full mobile:px-[10%]">
+            <img
+              src={logo}
+              alt=""
+              srcset=""
+              className="mb-5 mobile:object-contain mobile:w-28"
+            />
+            <p className="mb-16 mobile:text-sm">
               Getlinked Tech Hackathon is a technology innovation program
               established by a group of organizations with the aim of showcasing
               young and talented individuals in the field of technology
             </p>
 
             <div className="flex gap-2 ">
-              <p>Terms of Use</p>
+              <p className="mobile:text-sm">Terms of Use</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -839,17 +850,17 @@ function App() {
                 />
               </svg>
 
-              <p>Privacy Policy</p>
+              <p className="mobile:text-sm">Privacy Policy</p>
             </div>
           </div>
-          <div className="p-10 w-[25%] flex flex-col gap-5 bg-red-800">
-            <h1 className="text-[#D434FE]">Useful Links</h1>
-            <p className="cursor-pointer">Overview</p>
-            <p className="cursor-pointer">Timeline</p>
-            <p className="cursor-pointer">FAQs</p>
-            <p className="cursor-pointer">Register</p>
+          <div className="p-10 w-[25%] flex flex-col gap-5  mobile:w-full">
+            <h1 className="text-[#D434FE] mobile:text-sm">Useful Links</h1>
+            <p className="cursor-pointer mobile:text-sm">Overview</p>
+            <p className="cursor-pointer mobile:text-sm">Timeline</p>
+            <p className="cursor-pointer mobile:text-sm">FAQs</p>
+            <p className="cursor-pointer mobile:text-sm">Register</p>
             <div className="flex gap-5">
-              <p className="text-[#D434FE] cursor-pointer">Follow us</p>
+              <p className="text-[#D434FE] cursor-pointer mobile:text-sm">Follow us</p>
               <img
                 src={instagram}
                 alt=""
@@ -876,11 +887,11 @@ function App() {
               />
             </div>
           </div>
-          <div className="p-10 w-[30%] bg-red-800 flex flex-col gap-5 ">
-            <h1 className="text-[#D434FE]">Contact Us</h1>
+          <div className="p-10 w-[30%]  flex flex-col gap-5 mobile:w-full ">
+            <h1 className="text-[#D434FE] mobile:text-sm">Contact Us</h1>
             <div className="flex gap-4">
               <img src={call} alt="" srcset="" className="object-contain " />
-              <p>+234 6707653444</p>
+              <p className="mobile:text-sm">+234 6707653444</p>
             </div>
             <div className="flex gap-4">
               <img
@@ -889,11 +900,11 @@ function App() {
                 srcset=""
                 className="object-contain "
               />
-              <p>27,Alara Street Yaba 100012 Lagos State</p>
+              <p className="mobile:text-sm">27,Alara Street Yaba 100012 Lagos State</p>
             </div>
           </div>
         </div>
-        <p className="text-center">All rights reserved. © getlinked Ltd.</p>
+        <p className="text-center mobile:text-sm">All rights reserved. © getlinked Ltd.</p>
       </div>
     </div>
   );
