@@ -137,7 +137,7 @@ function App() {
       {/* Second Section */}
       <div className="border-b border-[#FFFFFF2E]">
         <div className="w-full mb-5 pr-10  mobile:pr-0 mobile:w-[95%] mobile:mx-auto mobile:p-0">
-          <h1 className="text-right text-white text-5xl font-bold mobile:text-center mobile:text-[1.5rem] mobile:w-[100%] mobile:mx-auto mb-3">
+          <h1 className="text-right text-white text-5xl font-bold mobile:text-center mobile:text-lg mobile:w-[100%] mobile:mx-auto mb-3">
             Igniting a Revolution in HR Innovation
           </h1>
           <img
