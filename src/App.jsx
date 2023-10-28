@@ -214,7 +214,7 @@ function App() {
         </div>
 
         <div className="w-2/4  flex flex-col justify-center gap-4 mobile:w-full mobile:text-center ">
-          <h1 className="text-white font-bold text-3xl w-7/12 mobile:w-full mobile:text-lg">
+          <h1 className="text-white font-bold text-3xl w-7/12 mobile:w-full mobile:text-lg ">
             Introduction to getlinked{" "}
             <span className="text-[#D434FE] font-bold text-3xl mobile:text-lg">
               techHackathon 1.0
@@ -244,13 +244,13 @@ function App() {
         </div>
 
         <div className="w-2/4  flex flex-col justify-center gap-4 pl-40  mobile:w-full mobile:pl-0">
-          <h1 className="text-white font-bold text-3xl mobile:mx-auto">
+          <h1 className="text-white font-bold text-3xl mobile:mx-auto mobile:text-base">
             Rules and
           </h1>
-          <h1 className="text-[#D434FE] font-bold text-3xl mobile:mx-auto">
+          <h1 className="text-[#D434FE] font-bold text-base mobile:mx-auto">
             Guildlines
           </h1>
-          <p className="w-6/6 text-white text-base leading-loose mobile:mx-auto mobile:w-5/6 mobile:text-center">
+          <p className="w-6/6 text-white text-base leading-loose mobile:mx-auto mobile:w-full mobile:text-center mobile:text-sm">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
             genius, a design maverick, or a concept wizard, you'll have the
