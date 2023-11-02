@@ -6,3 +6,9 @@ body{
   margin: 0px;
   padding: 0px;
 }
+input,textarea{
+  outline: none;
+}
+option{
+  background-color: #150E28;
+}

@@ -23,8 +23,10 @@ import instagram from "./assets/images/instagram.png";
 import linkedin from "./assets/images/likedin.png"
 import logo from "./assets/images/getlinked.png";
 import menu from './assets/images/menu.png';
-import cancel from './assets/images/cancel.png'
+import cancel from './assets/images/cancel.png';
+import back from './assets/images/return.png';
+import relax from './assets/images/relaxing.png'
 
 
 
-export {curvedline, hubpic,grouped,gosip,bulb,family,thought,first,second,third,fourth,fifth,sixth,cup,reward,partner,secure,call,x,fb,location,instagram,linkedin,logo,menu,cancel}
+export {curvedline, hubpic,grouped,gosip,bulb,family,thought,first,second,third,fourth,fifth,sixth,cup,reward,partner,secure,call,x,fb,location,instagram,linkedin,logo,menu,cancel,back,relax}
