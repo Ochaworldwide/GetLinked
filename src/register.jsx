@@ -1,7 +1,11 @@
-import React from 'react'
-import { relax } from './image'
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { relax } from "./image";
 
 const Register = () => {
+  const submit = () => {
+    console.log("form submission");
+  };
   return (
     <div className="bg-[#150E28] w-full box-border">
       <div className="flex mobile:block mobile:px-[5%]">
@@ -111,17 +115,20 @@ const Register = () => {
           </p>
 
           <p className="mobile:text-xs mobile:mb-5">
-            <input type="checkbox" className="mr-3 mb-5  mobile:mb-0" />I agreed with the
-            event terms and conditions and privacy policy
+            <input type="checkbox" className="mr-3 mb-5  mobile:mb-0" />I agreed
+            with the event terms and conditions and privacy policy
           </p>
 
-          <button className="h-11 w-full bg-gradient-to-r from-[#D434FE] to-[#FE34B9] text-center rounded flex justify-center items-center cursor-pointer text-white mb-10 mx-auto">
+          <button
+            onClick={submit}
+            className="h-11 w-full bg-gradient-to-r from-[#D434FE] to-[#FE34B9] text-center rounded flex justify-center items-center cursor-pointer text-white mb-10 mx-auto"
+          >
             Register Now
           </button>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Register
+export default Register;

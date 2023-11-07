@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import {
   x,
   fb,
@@ -10,14 +11,18 @@ import {
 function Contact() {
   return (
     <div className="bg-[#150E28] w-full box-border">
-      <div className="p-40 flex w-[80%] mx-auto items-center text-[white] mobile:block mobile:p-0">
-        <img
+      <div className="p-40 flex w-[80%] mx-auto items-center text-[white] mobile:block mobile:p-0 mobile:w-[90%] ">
+        
+
+        <Link to="/">
+          <img
           src={back}
           alt=""
           srcset=""
           className="hidden mobile:block pt-5 cursor-pointer"
         />
-        <div className="p-10 w-[40%] gap-6 flex flex-col mobile:hidden">
+        </Link>
+        <div className="p-10 mobile:pb-0 w-[40%] gap-6 flex flex-col mobile:hidden">
           <h1 className="text-[#D434FE] font-bold text-3xl">Get in touch</h1>
 
           <p>Contact Information</p>
@@ -63,7 +68,7 @@ function Contact() {
 
         <form
           action=""
-          className="p-20  w-[60%] flex flex-col gap-5  text-white border border-gray-900 drop-shadow-2xl mobile:w-full mobile:px-0"
+          className="p-20  w-[60%] flex flex-col gap-10  text-white border border-gray-900 drop-shadow-2xl mobile:w-full mobile:px-0 mobile:pb-0 mobile:border-none"
         >
           <h1 className="text-[#D434FE] font-bold text-xl mobile:text-base">
             Questions or need assistance ? <br /> Let us Know about it
@@ -112,7 +117,7 @@ function Contact() {
             className="bg-transparent border rounded p-2"
           ></textarea>
 
-          <button className="h-11 w-32 bg-gradient-to-r from-[#D434FE] to-[#FE34B9] text-center rounded flex justify-center items-center cursor-pointer text-white mb-10 mx-auto">
+          <button className="h-11 w-32 bg-gradient-to-r from-[#D434FE] to-[#FE34B9] text-center rounded flex justify-center items-center cursor-pointer text-white  mb-10 mx-auto">
             <span class="relative flex h-3 w-3 -translate-y-6 translate-x-24">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
