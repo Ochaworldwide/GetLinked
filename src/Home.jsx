@@ -73,6 +73,7 @@ const Home = () => {
             className="ml-auto w-80 object-contain object-center mobile:w-[40%]"
           />
         </div>
+        
 
         <div className=" flex w-full pl-36 mobile:block mobile:px-0">
           <div className="w-[50%] mobile:mx-auto mobile:w-[80%] mobile:mb-10">

@@ -1,4 +1,5 @@
 import React from 'react'
+import Chat from './chat';
 import { Link } from "react-router-dom";
 import {
   x,
@@ -156,6 +157,8 @@ function Contact() {
           />
         </div>
       </div>
+
+      {/* <Chat /> */}
     </div>
   );
 }

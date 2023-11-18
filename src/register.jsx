@@ -1,14 +1,40 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
 import { relax } from "./image";
+import { useState } from "react";
+import Modal from "./modal";
 
 const Register = () => {
-  const submit = () => {
-    console.log("form submission");
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
   };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="bg-[#150E28] w-full box-border">
-      <div className="flex mobile:block mobile:px-[5%]">
+      <Modal isOpen={isModalOpen} onClose={closeModal}>
+        <h2 className="text-3xl font-semibold mb-10 text-center text-white leading-relaxed mobile:text-xl">
+          {" "}
+          Congratulations <br /> you have successfully registered
+        </h2>
+        <p className="mb-10 text-center leading-loose text-white">
+          Yes, it was easy and you did it! check your mail box for next
+          step
+        </p>
+        <button
+          className="h-11 w-full bg-gradient-to-r from-[#D434FE] to-[#FE34B9] text-center rounded flex justify-center items-center cursor-pointer text-white mobile:mx-auto"
+          onClick={closeModal}
+        >
+          Back
+        </button>
+      </Modal>
+
+      <div className="flex mobile:block mobile:px-[5%] ">
         <h1 className="text-[#D434FE] text-xl font-bold mb-5 hidden mobile:block">
           Register
         </h1>
@@ -120,7 +146,7 @@ const Register = () => {
           </p>
 
           <button
-            onClick={submit}
+            onClick={openModal}
             className="h-11 w-full bg-gradient-to-r from-[#D434FE] to-[#FE34B9] text-center rounded flex justify-center items-center cursor-pointer text-white mb-10 mx-auto"
           >
             Register Now
