@@ -54,7 +54,7 @@ jobs:
 
           git pull 'https://github.com/Ochaworldwide/GetLinked.git'
 
-          cp -r dist/* /var/www/getlinked.westempire.online/html
+          cp -r dist/* /var/www/westempire.online/html
 
           echo "Deploy successful'"
 
