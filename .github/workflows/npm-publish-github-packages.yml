@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    # - name: Checkout repository
+    #   uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: npm install
+    # - name: Install dependencies
+    #   run: npm install
 
-    - name: Building the netflix
-      run: npm run build
+    # - name: Building the netflix
+    #   run: npm run build
 
     # - name: Install SSH key
     #   uses: webfactory/ssh-agent@v0.5.3
@@ -53,6 +53,10 @@ jobs:
           git init
 
           git pull 'https://github.com/Ochaworldwide/GetLinked.git'
+
+          npm install
+
+          npm run build
 
           cp -r dist/* /var/www/westempire.online/html
 
