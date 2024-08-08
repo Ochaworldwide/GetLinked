@@ -56,7 +56,7 @@ jobs:
 
           cp -r dist/* /var/www/westempire.online/html
 
-          echo "Deploy successful'"
+          echo "Deploy successful"
 
 
 

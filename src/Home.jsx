@@ -2,6 +2,10 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import AccordionBasicExample from "./assets/components/accordian";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faClock, faWifi } from "@fortawesome/free-solid-svg-icons";
+
 import {
   curvedline,
   hubpic,
@@ -20,6 +24,7 @@ import {
   reward,
   partner,
   secure,
+  background,
 } from "./image";
 
 
@@ -61,21 +66,20 @@ const Home = () => {
   return (
     <>
       {/* Second Section */}
-      <div className="border-b border-[#FFFFFF2E]">
+      <div className="border-b border-[#FFFFFF2E] bg-white">
         <div className="w-full mb-5 pr-10  mobile:pr-0 mobile:w-[95%] mobile:mx-auto mobile:p-0">
           <h1 className="text-right text-white text-5xl font-bold mobile:text-center mobile:text-lg mobile:w-[100%] mobile:mx-auto mb-3">
             Igniting a Revolution in HR Innovation
           </h1>
           <img
-            src={curvedline}
+            src={background}
             alt=""
             srcset=""
             className="ml-auto w-80 object-contain object-center mobile:w-[40%]"
           />
         </div>
-        
 
-        <div className=" flex w-full pl-36 mobile:block mobile:px-0">
+        <div className=" flex w-full pl-36 mobile:block mobile:px-0 ">
           <div className="w-[50%] mobile:mx-auto mobile:w-[80%] mobile:mb-10">
             <img
               src={hubpic}
@@ -130,17 +134,64 @@ const Home = () => {
       </div>
 
       {/* Third Section */}
-      <div className="w-full px-10 py-20 border-b flex border-[#FFFFFF2E] mobile:block mobile:px-5">
-        <div className="w-2/4 mobile:w-full mobile:mb-10">
+      <div className="w-full px-10 py-20 border-b flex flex-col border-[#FFFFFF2E] mobile:block mobile:px-5 bg-blue-500 items-center justify-center">
+        <h1 className="text-white text-4xl font-bold mb-5">
+          Why Choose TechRoom?
+        </h1>
+
+        <p className="text-white mb-5 text-xl">
+          Experience a workspace designed to boost productivity and foster
+          collaboration.
+        </p>
+
+        <div className="flex items-center justify-around bg-red-400 w-full">
+          <div className="w-1/4 text-center bg-black mobile:w-full mobile:mb-10">
+            <FontAwesomeIcon icon={faWifi} size="5x" color="white" />
+
+            <h1 className="text-white text-2xl font-bold mb-2 mt-10">
+              High-Speed Internet
+            </h1>
+
+            <p className="text-white mb-5 text-sm">
+              Stay connected with our ultra-fast internet.
+            </p>
+          </div>
+
+          <div className="w-1/4 text-center bg-black mobile:w-full mobile:mb-10">
+            <FontAwesomeIcon icon={faWifi} size="5x" color="white" />
+
+            <h1 className="text-white text-2xl font-bold mb-2 mt-10">
+              Comfortable Environment
+            </h1>
+
+            <p className="text-white mb-5 text-sm">
+              Work in a space that’s designed for comfort and productivity.
+            </p>
+          </div>
+
+          <div className="w-1/4 text-center bg-black mobile:w-full mobile:mb-10">
+            <FontAwesomeIcon icon={faClock} size="5x" color="white" />
+
+            <h1 className="text-white text-2xl font-bold mb-2 mt-10">
+              Flexible Memberships
+            </h1>
+
+            <p className="text-white mb-5 text-sm">
+              Choose a plan that suits your schedule and needs.
+            </p>
+          </div>
+        </div>
+
+        {/* <div className="w-2/4 mobile:w-full mobile:mb-10">
           <img
             src={bulb}
             alt=""
             srcset=""
             className="object-contain object-center mx-auto h-full mobile:w--full"
           />
-        </div>
+        </div> */}
 
-        <div className="w-2/4  flex flex-col justify-center gap-4 mobile:w-full mobile:text-center ">
+        {/* <div className="w-2/4  flex flex-col justify-center gap-4 mobile:w-full mobile:text-center ">
           <h1 className="text-white font-bold text-3xl w-7/12 mobile:w-full mobile:text-lg ">
             Introduction to getlinked{" "}
             <span className="text-[#D434FE] font-bold text-3xl mobile:text-lg">
@@ -156,7 +207,7 @@ const Home = () => {
             problems, pushing the boundaries of technology, and creating
             solutions that can change the world, that's what we're all about!
           </p>
-        </div>
+        </div> */}
       </div>
 
       {/* Fourth Section */}
